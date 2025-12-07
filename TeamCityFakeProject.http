@@ -1,0 +1,6 @@
+@TeamCityFakeProject_HostAddress = http://localhost:5139
+
+GET {{TeamCityFakeProject_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
