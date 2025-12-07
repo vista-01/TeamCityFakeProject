@@ -52,3 +52,9 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Others
+/.vs/TeamCityFakeProject/v17
+/.vs/TeamCityFakeProject/FileContentIndex
+/appsettings.Development.json
+/appsettings.json
