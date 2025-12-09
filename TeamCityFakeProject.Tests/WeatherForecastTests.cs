@@ -27,6 +27,8 @@ namespace TeamCityFakeProject.Tests
         [InlineData(55, 130)]
         public void TemperatureF_ConvertsFromCelsiusCorrectly_WithVariousTemperatures(int celsius, int expectedFahrenheit)
         {
+            Assert.Fail("Purposely failing");
+
             // Arrange
             var weatherForecast = new WeatherForecast
             {
